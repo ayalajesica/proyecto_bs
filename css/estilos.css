@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
+
+/*reseteo de valores- reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    align-items: center;
+}
+.header{
+    height: 100vh;
+    padding: 0px;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.colorFondo{
+    background-color: rgb(53, 58, 64);
+}
+
+.navbar-light .navbar-nav .verde{
+   color: rgb(47, 148, 70);
+}
+
+.carrusel{
+    display: inline-block;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.textoConferencia{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;/*negrita*/
+    color:white;
+    text-align: right;
+}
+.itmCarrusel .imgCarrusel{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    height: 90vh;
+    object-fit: cover;
+}
+
+h2{
+    height: 10%;
+}
+
+.tituloBsAs{
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.parrafoBsAs{
+    padding-top: 1rem;
+    font-size:12px;
+}
+
+span{
+    font-size: 1rem;
+}
+
+.botonTarjeta{
+    font-size: 10px;
+    padding: 0;
+}
+.javascript {
+    color: white;
+    background-color: rgb(254, 193, 7);
+    border-color: rgb(254, 193, 7);
+}
+
+.react{
+    background-color: rgb(23, 162, 185);
+    border-color: rgb(23, 162, 185);
+}
+
+.negocios{
+    background-color: rgb(108, 117, 124);
+    border-color: rgb(108, 117, 124);
+}
+
+.startups{
+    background-color: rgb(220, 54, 66);
+    border-color: rgb(220, 54, 66);
+}
+
+.honolulu{
+    height: 60vh;
+}
+
+.izquierda{
+    background-image:url("../assets/img/honolulu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    border:1px solid white;
+}
+
+.derecha{
+    background-color: rgb(53, 58, 64);
+    color:white;
+    height: 100%;
+    border:1px solid white;
+}
+
+.btnLugarFecha{
+    background-color: transparent;
+}
+
+.formulario h2{
+    font-size: smaller;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    height: 40%;
+}
+
+.formulario h2 span{
+    font-size: x-large;
+    font-weight: 800;
+}
+.textArea{
+    font-size: smaller;
+}
+.botonEnviar{
+    background-color: rgb(150, 201, 62);
+    color: white;
+    align-items: center;
+}
+.footer {
+    background-color: rgb(29, 64, 84);
+    display: flex;
+    align-items: center;
+  }
+
+  /*media querys*/
+  @media (max-width: 768px) {
+    .sectionOradores {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    }
+    .honolulu{
+    display: flex;
+    flex-direction: column;
+    height: 25%
+    }
+}
+
